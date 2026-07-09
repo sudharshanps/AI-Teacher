@@ -1,0 +1,19 @@
+[Unit]
+Description=Demo Spring Boot Backend
+After=network.target
+
+[Service]
+Type=simple
+User=ec2-user
+WorkingDirectory=/home/ec2-user/app
+ExecStart=/usr/bin/java -jar /home/ec2-user/app/demo-0.0.1-SNAPSHOT.jar
+SuccessExitStatus=143
+Restart=on-failure
+RestartSec=10
+# Uncomment and edit if you're not using an IAM instance role for AWS credentials:
+# Environment=AWS_ACCESS_KEY_ID=your-key
+# Environment=AWS_SECRET_ACCESS_KEY=your-secret
+Environment=AWS_REGION=us-east-1
+
+[Install]
+WantedBy=multi-user.target
