@@ -1,0 +1,6 @@
+{
+  "name": "AI Teacher",
+  "description": "An AI teacher that understands, teaches, adapts and remembers through interactive video, real-time RAG grounding, and adaptive misconception remediation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
