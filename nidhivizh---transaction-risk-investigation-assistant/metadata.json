@@ -1,0 +1,6 @@
+{
+  "name": "NidhiVizh - Transaction Risk Investigation Assistant",
+  "description": "Evidence-Driven Transaction Risk Investigation Assistant for enterprise banking fraud-investigation and risk teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
